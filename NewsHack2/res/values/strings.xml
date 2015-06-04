@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewsHack2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="articles_array">
+        <item>Alton Towers rollercoaster crash: Recap updates after collision on The Smiler</item>
+        <item>Election 2015: Dramatic moments and key results</item>
+        <item>Hale crash: One dead after accident on Clay Lane</item>
+    </string-array>
+
+</resources>

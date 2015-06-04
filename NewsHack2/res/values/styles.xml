@@ -1,0 +1,18 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="@android:windowBackground">@color/grey</item>
+        <item name="android:spinnerItemStyle">@style/MySpinnerItem</item>
+    </style>
+
+    <style name="MySpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/MyTextAppearanceSpinnerItem</item>
+    </style>
+
+    <style name="MyTextAppearanceSpinnerItem" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+
+</resources>

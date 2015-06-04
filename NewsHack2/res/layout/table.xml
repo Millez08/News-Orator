@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_width"
+        android:background="@color/divider" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <View
+            android:layout_width="@dimen/divider_width"
+            android:layout_height="@dimen/column_height"
+            android:background="@color/divider" />"
+    
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_alignParentRight="true" >
+	        <View
+	            android:layout_width="@dimen/divider_width"
+	            android:layout_height="match_parent"
+	            android:background="@color/divider" />
+	        <ImageView
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="@dimen/column_height"
+	            android:paddingTop="@dimen/image_padding"
+	            android:paddingBottom="@dimen/image_padding"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:src="@drawable/economic" />
+	        <View
+	            android:layout_width="@dimen/divider_width"
+	            android:layout_height="match_parent"
+	            android:background="@color/divider" />
+	        <ImageView
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="@dimen/column_height"
+	            android:paddingTop="@dimen/image_padding"
+	            android:paddingBottom="@dimen/image_padding"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:src="@drawable/defence" />
+	        <View
+	            android:layout_width="@dimen/divider_width"
+	            android:layout_height="match_parent"
+	            android:background="@color/divider" />
+	        <ImageView
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="@dimen/column_height"
+	            android:paddingTop="@dimen/image_padding"
+	            android:paddingBottom="@dimen/image_padding"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:src="@drawable/polotics" />
+	        <View
+	            android:layout_width="@dimen/divider_width"
+	            android:layout_height="match_parent"
+	            android:background="@color/divider" />
+	        <ImageView
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="@dimen/column_height"
+	            android:paddingTop="@dimen/image_padding"
+	            android:paddingBottom="@dimen/image_padding"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:src="@drawable/body_count" />
+	        <View
+	            android:layout_width="@dimen/divider_width"
+	            android:layout_height="match_parent"
+	            android:background="@color/divider" />
+	        <ImageView
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="@dimen/column_height"
+	            android:paddingTop="@dimen/image_padding"
+	            android:paddingBottom="@dimen/image_padding"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:src="@drawable/geo_location" />
+	        <View
+	            android:layout_width="@dimen/divider_width"
+	            android:layout_height="match_parent"
+	            android:background="@color/divider" />
+	    </LinearLayout>
+    
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_width"
+        android:background="@color/divider" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <View
+            android:id="@+id/view"
+            android:layout_width="@dimen/divider_width"
+            android:layout_height="@dimen/column_height"
+            android:background="@color/divider" />
+        
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/view"
+            android:layout_toLeftOf="@+id/linearLayout"
+            android:layout_centerVertical="true"
+            android:entries="@array/articles_array" />
+    
+	    <LinearLayout
+	        android:id="@+id/linearLayout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_alignParentRight="true" >
+	        <View
+	            android:layout_width="@dimen/divider_width"
+                android:layout_height="@dimen/column_height"
+	            android:background="@color/divider" />
+	        <EditText
+	            android:id="@+id/editText1"
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:inputType="number"
+	            android:textColor="#FFFFFF" />"
+	        <!-- <TextView
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:text="1" /> -->
+	        <View
+	            android:layout_width="@dimen/divider_width"
+	            android:layout_height="@dimen/column_height"
+	            android:background="@color/divider" />
+	        <EditText
+	            android:id="@+id/editText2"
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:inputType="number"
+                android:textColor="#FFFFFF" />
+	        <View
+	            android:layout_width="@dimen/divider_width"
+                android:layout_height="@dimen/column_height"
+	            android:background="@color/divider" />
+	        <EditText
+	            android:id="@+id/editText3"
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:inputType="number"
+                android:textColor="#FFFFFF" />
+	        <View
+	            android:layout_width="@dimen/divider_width"
+                android:layout_height="@dimen/column_height"
+	            android:background="@color/divider" />
+	        <EditText
+	            android:id="@+id/editText4"
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:inputType="number"
+                android:textColor="#FFFFFF" />
+	        <View
+	            android:layout_width="@dimen/divider_width"
+                android:layout_height="@dimen/column_height"
+	            android:background="@color/divider" />
+	        <EditText
+	            android:id="@+id/editText5"
+	            android:layout_width="@dimen/column_width"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:gravity="center"
+	            android:inputType="number"
+                android:textColor="#FFFFFF" />
+	        <View
+	            android:layout_width="@dimen/divider_width"
+                android:layout_height="@dimen/column_height"
+	            android:background="@color/divider" />
+	    </LinearLayout>
+	    
+	</RelativeLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_width"
+        android:background="@color/divider" />
+
+</LinearLayout>
